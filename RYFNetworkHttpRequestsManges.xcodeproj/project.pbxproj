@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D559321B45D25C00D5E94D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D559311B45D25C00D5E94D /* main.m */; };
+		A3D559351B45D25C00D5E94D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D559341B45D25C00D5E94D /* AppDelegate.m */; };
+		A3D559381B45D25C00D5E94D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D559371B45D25C00D5E94D /* ViewController.m */; };
+		A3D5593B1B45D25C00D5E94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D559391B45D25C00D5E94D /* Main.storyboard */; };
+		A3D5593D1B45D25C00D5E94D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D5593C1B45D25C00D5E94D /* Images.xcassets */; };
+		A3D559401B45D25C00D5E94D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D5593E1B45D25C00D5E94D /* LaunchScreen.xib */; };
+		A3D5594C1B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D5594B1B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D559461B45D25C00D5E94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D559241B45D25C00D5E94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D5592B1B45D25C00D5E94D;
+			remoteInfo = RYFNetworkHttpRequestsManges;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3D5592C1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYFNetworkHttpRequestsManges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D559301B45D25C00D5E94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D559311B45D25C00D5E94D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3D559331B45D25C00D5E94D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3D559341B45D25C00D5E94D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3D559361B45D25C00D5E94D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3D559371B45D25C00D5E94D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3D5593A1B45D25C00D5E94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3D5593C1B45D25C00D5E94D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3D5593F1B45D25C00D5E94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3D559451B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYFNetworkHttpRequestsMangesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D5594A1B45D25C00D5E94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D5594B1B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYFNetworkHttpRequestsMangesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D559291B45D25C00D5E94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D559421B45D25C00D5E94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D559231B45D25C00D5E94D = {
+			isa = PBXGroup;
+			children = (
+				A3D5592E1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges */,
+				A3D559481B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests */,
+				A3D5592D1B45D25C00D5E94D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D5592D1B45D25C00D5E94D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5592C1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges.app */,
+				A3D559451B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D5592E1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges */ = {
+			isa = PBXGroup;
+			children = (
+				A3D559331B45D25C00D5E94D /* AppDelegate.h */,
+				A3D559341B45D25C00D5E94D /* AppDelegate.m */,
+				A3D559361B45D25C00D5E94D /* ViewController.h */,
+				A3D559371B45D25C00D5E94D /* ViewController.m */,
+				A3D559391B45D25C00D5E94D /* Main.storyboard */,
+				A3D5593C1B45D25C00D5E94D /* Images.xcassets */,
+				A3D5593E1B45D25C00D5E94D /* LaunchScreen.xib */,
+				A3D5592F1B45D25C00D5E94D /* Supporting Files */,
+			);
+			path = RYFNetworkHttpRequestsManges;
+			sourceTree = "<group>";
+		};
+		A3D5592F1B45D25C00D5E94D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D559301B45D25C00D5E94D /* Info.plist */,
+				A3D559311B45D25C00D5E94D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D559481B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5594B1B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.m */,
+				A3D559491B45D25C00D5E94D /* Supporting Files */,
+			);
+			path = RYFNetworkHttpRequestsMangesTests;
+			sourceTree = "<group>";
+		};
+		A3D559491B45D25C00D5E94D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D5594A1B45D25C00D5E94D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D5592B1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D5594F1B45D25C00D5E94D /* Build configuration list for PBXNativeTarget "RYFNetworkHttpRequestsManges" */;
+			buildPhases = (
+				A3D559281B45D25C00D5E94D /* Sources */,
+				A3D559291B45D25C00D5E94D /* Frameworks */,
+				A3D5592A1B45D25C00D5E94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYFNetworkHttpRequestsManges;
+			productName = RYFNetworkHttpRequestsManges;
+			productReference = A3D5592C1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3D559441B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D559521B45D25C00D5E94D /* Build configuration list for PBXNativeTarget "RYFNetworkHttpRequestsMangesTests" */;
+			buildPhases = (
+				A3D559411B45D25C00D5E94D /* Sources */,
+				A3D559421B45D25C00D5E94D /* Frameworks */,
+				A3D559431B45D25C00D5E94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D559471B45D25C00D5E94D /* PBXTargetDependency */,
+			);
+			name = RYFNetworkHttpRequestsMangesTests;
+			productName = RYFNetworkHttpRequestsMangesTests;
+			productReference = A3D559451B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D559241B45D25C00D5E94D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = renyufei;
+				TargetAttributes = {
+					A3D5592B1B45D25C00D5E94D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A3D559441B45D25C00D5E94D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A3D5592B1B45D25C00D5E94D;
+					};
+				};
+			};
+			buildConfigurationList = A3D559271B45D25C00D5E94D /* Build configuration list for PBXProject "RYFNetworkHttpRequestsManges" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D559231B45D25C00D5E94D;
+			productRefGroup = A3D5592D1B45D25C00D5E94D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D5592B1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges */,
+				A3D559441B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D5592A1B45D25C00D5E94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D5593B1B45D25C00D5E94D /* Main.storyboard in Resources */,
+				A3D559401B45D25C00D5E94D /* LaunchScreen.xib in Resources */,
+				A3D5593D1B45D25C00D5E94D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D559431B45D25C00D5E94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D559281B45D25C00D5E94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D559381B45D25C00D5E94D /* ViewController.m in Sources */,
+				A3D559351B45D25C00D5E94D /* AppDelegate.m in Sources */,
+				A3D559321B45D25C00D5E94D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D559411B45D25C00D5E94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D5594C1B45D25C00D5E94D /* RYFNetworkHttpRequestsMangesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D559471B45D25C00D5E94D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D5592B1B45D25C00D5E94D /* RYFNetworkHttpRequestsManges */;
+			targetProxy = A3D559461B45D25C00D5E94D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3D559391B45D25C00D5E94D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D5593A1B45D25C00D5E94D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3D5593E1B45D25C00D5E94D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D5593F1B45D25C00D5E94D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D5594D1B45D25C00D5E94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3D5594E1B45D25C00D5E94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3D559501B45D25C00D5E94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYFNetworkHttpRequestsManges/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3D559511B45D25C00D5E94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYFNetworkHttpRequestsManges/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3D559531B45D25C00D5E94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RYFNetworkHttpRequestsMangesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYFNetworkHttpRequestsManges.app/RYFNetworkHttpRequestsManges";
+			};
+			name = Debug;
+		};
+		A3D559541B45D25C00D5E94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RYFNetworkHttpRequestsMangesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYFNetworkHttpRequestsManges.app/RYFNetworkHttpRequestsManges";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D559271B45D25C00D5E94D /* Build configuration list for PBXProject "RYFNetworkHttpRequestsManges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D5594D1B45D25C00D5E94D /* Debug */,
+				A3D5594E1B45D25C00D5E94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D5594F1B45D25C00D5E94D /* Build configuration list for PBXNativeTarget "RYFNetworkHttpRequestsManges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D559501B45D25C00D5E94D /* Debug */,
+				A3D559511B45D25C00D5E94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D559521B45D25C00D5E94D /* Build configuration list for PBXNativeTarget "RYFNetworkHttpRequestsMangesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D559531B45D25C00D5E94D /* Debug */,
+				A3D559541B45D25C00D5E94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D559241B45D25C00D5E94D /* Project object */;
+}
