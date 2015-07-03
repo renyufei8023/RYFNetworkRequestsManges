@@ -7,20 +7,37 @@
 //
 
 #import "ViewController.h"
+#import "RYFNetworkHttpRequestsManges.h"
 
 @interface ViewController ()
 
+@property (nonatomic,retain)RYFNetworkHttpRequestsManges *mangers;
 @end
 
 @implementation ViewController
+@synthesize mangers = _mangers;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _mangers = [RYFNetworkHttpRequestsManges new];
+    [_mangers initHttpRequestManges];
+    [self downloadDataFromServer];
+}
+
+- (void)downloadDataFromServer
+{
+    [_mangers download:@"http://192.168.1.122/v2/index" andMethod:RYFRequestMethodGet andParameter:nil andPassParameters:nil success:^(id returnData, id passParameters) {
+        NSLog(@"成功了");
+    } failure:^(id returnData, NSError *error, id passParameters) {
+        NSLog(@"失败了");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
+    
     // Dispose of any resources that can be recreated.
 }
 
