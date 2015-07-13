@@ -27,6 +27,10 @@
 
 - (void)downloadDataFromServer
 {
+    [_mangers networkState:^(NSString *state) {
+        NSLog(@"state状态是%@",state);
+    }];
+    
     [_mangers download:@"http://192.168.1.122/v2/index" andMethod:RYFRequestMethodGet andParameter:nil andPassParameters:nil success:^(id returnData, id passParameters) {
         NSLog(@"成功了");
     } failure:^(id returnData, NSError *error, id passParameters) {

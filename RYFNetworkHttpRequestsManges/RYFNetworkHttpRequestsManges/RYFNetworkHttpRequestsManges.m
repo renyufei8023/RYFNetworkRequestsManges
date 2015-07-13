@@ -124,6 +124,6 @@
                 break;
         }
     }];
-    
+    [manager.reachabilityManager startMonitoring];
 }
 @end
