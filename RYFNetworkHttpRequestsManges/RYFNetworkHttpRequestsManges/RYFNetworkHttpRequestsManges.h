@@ -47,7 +47,7 @@ typedef NS_ENUM(NSInteger, ACRequestMethod){
  *  @param keys
  *  @param values <#values description#>
  */
-- (void)setHeadrByArray:(NSArray *)keys anValues:(NSArray *)values;
+- (void)setHeaderByArray:(NSArray *)keys andValues:(NSArray *)values;
 
 /**
  *  设置HTTP Header
